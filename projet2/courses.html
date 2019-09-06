@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="test.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+    <!-- jQuery Modal -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="lien">
+        <nav class="navbar navbar-expand-lg navbar-light bg-red">
+                <a class="navbar-brand" href="#">
+                        <img src="logo.png" alt="logo" style="width: 90px;height:50px">
+
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link" href="courses.html">courses</a>
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link active" href="contact.html">contact<span class="sr-only">(current)</span></a>
+                    </li>
+                  </ul>
+                 
+                </div>
+              </nav>
+            </div>
+
+    <div class="size">
+        <img src="https://iyadhkhalfallah.github.io/checkpointsGMC/res/webdev3.png" alt="source" width="100%">
+
+    </div>
+    <div class="cour">
+        <h1>courses</h1>
+    </div>
+    <article>
+        <div>
+            <h4>freback</h4>
+            <footer>
+
+              
+                    <div class="photo ">
+                        <div class="stack1 row">
+                            <div class="s1 col-lg-3 col-xs-12 col-md-6 ">
+                                <a href="#ex1" rel="modal:open"><button>view more</button></a>
+                            </div>
+                            <div class="s2 col-lg-3 col-xs-12 col-md-6">
+                                <a href="#ex1" rel="modal:open"><button class="cv">view more</button></a>
+                            </div>
+                            <div class="s3 col-lg-3 col-xs-12 col-md-6">
+                                <a href="#ex1" rel="modal:open"><button>view more</button></a>
+                            </div>
+
+
+                        </div>
+
+                        <div class="stack2 row">
+                            <div class="s4 col-lg-3 col-xs-12 col-md-6">
+                                <a href="#ex1" rel="modal:open"><button>view more</button></a>
+                            </div>
+                            <div class="s5 col-lg-3 col-xs-12 col-md-6">
+                                <a href="#ex1" rel="modal:open"><button>view more</button></a>
+                            </div>
+                            <div class="s6 col-lg-3 col-xs-12 col-md-6">
+                                <a href="#ex1" rel="modal:open"><button>view more</button></a>
+                            </div>
+
+                        </div>
+
+                        <div class="stack3 row">
+                            <div class="s7 col-lg-3 col-xs-12 col-md-6">
+                                <a href="#ex1" rel="modal:open"><button>view more</button></a>
+                            </div>
+                            <div class="s8 col-lg-3 col-xs-12 col-md-6">
+                                <a href="#ex1" rel="modal:open"><button>view more</button></a>
+                            </div>
+                            <div class="s9 col-lg-3 col-xs-12 col-md-6">
+                                <a href="#ex1" rel="modal:open"><button>view more</button></a>
+                            </div>
+
+                        </div>
+                    </div>
+            </footer>
+
+            <div class="butt">
+                <form class="form-group">
+                    <button type="button" onclick="police()" class="form-control"> B </button>
+                    <button type="button" onclick="itali()" class="form-control">I</button>
+                    <button type="button" onclick="line()" class="form-control">underline</button>
+                    <select size="1" name="D1" size="3" onchange="sizes(this)" class="form-control">
+                        <option>20px</option>
+                        <option>30px</option>
+                        <option>40px</option>
+                        <br>
+                    </select>
+                    <select size="1" name="D1" onchange="family(this);" class="form-control">
+                        <option>arial</option>
+                        <option>Verdana</option>
+                        <option>Geneva</option>
+                        <br>
+            </div>
+            </select>
+            <br>
+            <textarea rows="10" name="S1" cols="50" id="text" class="form-control"></textarea>
+            </center>
+
+            </form>>
+    </article>
+    <div id="ex1" class="modal">
+        <p>This is GoMyCode Track.
+            Each track has its own goal.
+            By adopting this track, you chose your own goal.
+
+        </p>
+        <a href="#" rel="modal:close">Close</a>
+    </div>
+</body>
+<script src="controle.js"></script>
+
+
+</html>

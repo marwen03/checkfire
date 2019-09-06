@@ -1,0 +1,258 @@
+*{padding: 0px;margin:0px}
+
+body{
+    Background-image:
+
+    Linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+    
+    Linear-gradient(127deg, black, black 70.71%),
+    
+    Linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+    background-repeat: no-repeat;
+    
+ }
+.logo
+{
+width:50px;
+margin-left: 0px;
+height:50px ;
+}
+a:hover
+{
+color:red;
+}
+.lien
+{
+    /* margin-top: 3%; */
+ color:white;  
+ font-family: fantasy;
+ font-size: 50px;
+
+}
+.image img
+{
+
+   height: 900px;
+   width: 100%;
+ margin-top: 5%; 
+ margin-left:0px;
+ opacity: 60%;  
+}
+a
+{
+color: white;
+text-decoration: none;
+}
+a .indent
+{
+ text-indent: 100px;   
+}
+h1
+{
+color: white;
+text-align: center;
+font-family: serif;
+font-size: 60px;
+
+}
+.lota
+{
+margin-top: 20%;
+
+
+
+}
+/* .size img
+{
+height:100%;
+width: 100%;
+margin-top: 5%;
+
+} */
+.cour
+{
+   margin-bottom: 30%;
+   margin-top: -30%;
+font-family: fantasy;
+font-size: 50px;
+
+}
+.text
+{
+ color:white;  
+}
+
+
+
+.butt
+{
+   padding: 90px;
+ margin: 40px ;
+ cursor: pointer;
+ margin-top: 5%;
+}
+.back
+{
+/* margin: 50px;    */
+}
+.indent
+{
+font-size: 60px;
+}
+.as
+{
+margin-left: 320px;
+position: absolute;
+top:180%;
+}
+.cv
+{
+padding-left: 0px;
+
+}
+.s1
+{
+   background-image:url(./Objet\ dynamique\ vectoriel1.png);
+   width: 260px;
+   height: 220px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-position: center;
+   background-repeat: no-repeat;
+   margin-right: 35px;
+
+}
+.s2
+{
+background-image: url(./Objet\ dynamique\ vectoriel2.png);
+width: 260px;
+height: 220px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-repeat: no-repeat;
+background-position: center;
+margin-right: 35px;
+}
+.s3
+{
+background-image: url(./Objet\ dynamique\ vectoriel3.png);
+width: 260px;
+height: 220px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-position: center;
+background-repeat: no-repeat;
+margin-right: 35px;
+}
+.s4
+{
+background-image: url(./Objet\ dynamique\ vectoriel4.png);
+ width: 260px;
+height: 220px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-repeat: no-repeat;
+background-position: center;  
+margin-right: 35px;
+}
+.s5
+{
+background-image: url(./Objet\ dynamique\ vectoriel5.png);
+width: 260px;
+height: 220px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-repeat: no-repeat;
+background-position: center;
+margin-right: 35px;
+}
+.s6
+{
+background-image: url(./Objet\ dynamique\ vectoriel6.png);
+ width: 260px;
+height: 220px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-repeat: no-repeat;
+background-position: center;
+margin-right: 35px;
+}
+
+.s7{
+background-image: url(./Objet\ dynamique\ vectoriel7.png);
+   width: 260px;
+   height: 220px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-repeat: no-repeat;
+   background-position: center;
+   margin-right: 35px;
+}
+.s8
+{
+background-image: url(./Objet\ dynamique\ vectoriel8.png);
+width: 260px;
+height: 220px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-repeat: no-repeat;
+background-position: center;   
+margin-right: 35px;
+
+}
+.s9
+{background-image: url(./Objet\ dynamique\ vectoriel9.png);
+
+width: 260px;
+height: 220px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-repeat: no-repeat;
+margin-right: 35px;
+background-position: center; 
+}
+
+.stack1, .stack2, .stack3{
+   display: flex; 
+   width: 100%;
+   justify-content: center;
+}
+ul
+{
+margin-left: 35%;
+}
+ul li a
+{
+   color:white !important;
+   margin-left: 30px;
+   /* padding-right: -300px; */
+}
+ul li a:hover
+{
+color: red !important;
+}
+.lien
+{
+   /* padding-right: 300px; */
+}
+
+
+.form-control{
+   opacity:1!important;
+}
+
+.navbar-toggler{
+   opacity:1!important
+}
+ 
+
+
